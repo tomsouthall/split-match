@@ -1,0 +1,84 @@
+{
+  "name": "split-match",
+  "version": "0.1.0",
+  "description": "Split a text string into separate React elements. In addition, wrap any text that matches the supplied search text in a React element, even when the matched text is divided across the elements created by the split.",
+  "author": "Tom Southall",
+  "keywords": [
+    "React",
+    "string",
+    "split",
+    "match",
+    "delimiter",
+    "separator"
+  ],
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "main": "./dist/split-match.umd.js",
+  "module": "./dist/split-match.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/split-match.es.js",
+      "require": "./dist/split-match.umd.js"
+    }
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "test": "vitest run",
+    "watch": "vitest",
+    "coverage": "vitest run --coverage"
+  },
+  "dependencies": {
+    "escape-string-regexp": "^5.0.0",
+    "prop-types": "^15.8.1"
+  },
+  "devDependencies": {
+    "@testing-library/dom": "^8.11.3",
+    "@testing-library/react": "^12.1.3",
+    "@vitejs/plugin-react": "^1.0.7",
+    "c8": "^7.11.0",
+    "eslint": "^8.9.0",
+    "eslint-plugin-react": "^7.28.0",
+    "jsdom": "^19.0.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-test-renderer": "^17.0.2",
+    "vite": "^2.8.0",
+    "vitest": "^0.3.4"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "eslintConfig": {
+    "env": {
+      "browser": true,
+      "node": true,
+      "es2020": true
+    },
+    "extends": [
+      "eslint:recommended",
+      "plugin:react/recommended"
+    ],
+    "parserOptions": {
+      "sourceType": "module"
+    },
+    "rules": {
+      "semi": [
+        "error",
+        "never"
+      ],
+      "react/prop-types": 0
+    }
+  }
+}

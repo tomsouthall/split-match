@@ -6,11 +6,13 @@
   "author": "Tom Southall",
   "keywords": [
     "React",
+    "react-component",
     "string",
     "split",
     "match",
     "delimiter",
-    "separator"
+    "separator",
+    "autocomplete"
   ],
   "files": [
     "dist",

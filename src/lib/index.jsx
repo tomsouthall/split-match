@@ -104,7 +104,7 @@ export default function SplitMatch(props) {
 SplitMatch.propTypes = {
   caseSensitiveMatch: PropTypes.bool,
   caseSensitiveSplit: PropTypes.bool,
-  children: PropTypes.node.isRequired,
+  children: PropTypes.string,
   globalMatch: PropTypes.bool,
   globalSplit: PropTypes.bool,
   includeSeparator: PropTypes.bool,

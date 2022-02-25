@@ -1,10 +1,12 @@
 # SplitMatch React Component
 
-A React component for splitting and finding matches within a string
+A React component for finding matches within a split string
 
 - [Introduction](#introduction)
 - [Installation &amp; Usage](#installation-amp-usage)
 - [API](#api)
+- [Contributing](#contributing)
+- [Release Checklist](#release-checklist)
 - [License](#license)
 
 ## Introduction
@@ -192,8 +194,24 @@ The following components can be supplied to the `<SplitMatch>` component as prop
   - `index` (number) - The index of the split text (starts at `0`)
 - This is a customisable wrapper element (or elements) for the split text
 
+## Contributing
+- Fork the project
+- Run the project in development mode: `$ npm run dev`
+- Make changes.
+- Add appropriate tests
+- `$ npm test` (or `$ npm run watch`)
+- Ensure all tests pass and any snapshot chnages are fully reviewed
+- Update README with appropriate docs.
+- Commit and PR
 
+## Release checklist
+- Update CHANGELOG
+- Update version number in package.json
+- `$ git tag vN.N.N`
+- Push tag `$ git push --tags`
+- `$ npm run build`
+- `$ npm publish`
 
 ## License
 
-MIT © [tomsouthall](https://github.com/tomsouthall)
+MIT

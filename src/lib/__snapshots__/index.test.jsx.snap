@@ -1,0 +1,336 @@
+// Vitest Snapshot v1
+
+exports[`SplitMatch > does not match if cases do not match 1`] = `
+[
+  <span>
+    New,
+  </span>,
+  <span>
+     New, New
+  </span>,
+]
+`;
+
+exports[`SplitMatch > does not split if cases do not match 1`] = `
+<span>
+  <strong>
+    New
+  </strong>
+  , 
+  <strong>
+    New
+  </strong>
+  , 
+  <strong>
+    New
+  </strong>
+</span>
+`;
+
+exports[`SplitMatch > matches across splits 1`] = `
+[
+  <span>
+    Ne
+    <strong>
+      w,
+    </strong>
+  </span>,
+  <span>
+    <strong>
+       N
+    </strong>
+    e
+    <strong>
+      w,
+    </strong>
+  </span>,
+  <span>
+    <strong>
+       N
+    </strong>
+    ew
+  </span>,
+]
+`;
+
+exports[`SplitMatch > matches first only 1`] = `
+[
+  <span>
+    <strong>
+      New
+    </strong>
+    ,
+  </span>,
+  <span>
+     New,
+  </span>,
+  <span>
+     New
+  </span>,
+]
+`;
+
+exports[`SplitMatch > matches globally 1`] = `
+[
+  <span>
+    <strong>
+      New
+    </strong>
+    ,
+  </span>,
+  <span>
+     
+    <strong>
+      New
+    </strong>
+    ,
+  </span>,
+  <span>
+     
+    <strong>
+      New
+    </strong>
+  </span>,
+]
+`;
+
+exports[`SplitMatch > removes all separators if globalSplit 1`] = `
+[
+  <span>
+    <strong>
+      New
+    </strong>
+    
+  </span>,
+  <span>
+     
+    <strong>
+      New
+    </strong>
+    
+  </span>,
+  <span>
+     
+    <strong>
+      New
+    </strong>
+  </span>,
+]
+`;
+
+exports[`SplitMatch > removes first separator if not globalSplit 1`] = `
+[
+  <span>
+    <strong>
+      New
+    </strong>
+    
+  </span>,
+  <span>
+     
+    <strong>
+      New
+    </strong>
+    , 
+    <strong>
+      New
+    </strong>
+  </span>,
+]
+`;
+
+exports[`SplitMatch > renders correctly when only splitting 1`] = `
+[
+  <span>
+    New York City,
+  </span>,
+  <span>
+     New York,
+  </span>,
+  <span>
+     United States
+  </span>,
+]
+`;
+
+exports[`SplitMatch > renders correctly when splitting and matching 1`] = `
+[
+  <span>
+    <strong>
+      New York City,
+    </strong>
+  </span>,
+  <span>
+    <strong>
+       New
+    </strong>
+     York, United States
+  </span>,
+]
+`;
+
+exports[`SplitMatch > renders correctly when there is nothing to split or match 1`] = `
+<span>
+  foobar
+</span>
+`;
+
+exports[`SplitMatch > splits first only 1`] = `
+[
+  <span>
+    <strong>
+      New
+    </strong>
+    ,
+  </span>,
+  <span>
+     New, New
+  </span>,
+]
+`;
+
+exports[`SplitMatch > splits globally 1`] = `
+[
+  <span>
+    <strong>
+      New
+    </strong>
+    ,
+  </span>,
+  <span>
+     New,
+  </span>,
+  <span>
+     New
+  </span>,
+]
+`;
+
+exports[`SplitMatch > splits if cases do match 1`] = `
+[
+  <span>
+    <strong>
+      N
+    </strong>
+  </span>,
+  <span>
+    <strong>
+      ew
+    </strong>
+    , 
+    <strong>
+      N
+    </strong>
+  </span>,
+  <span>
+    <strong>
+      ew
+    </strong>
+    , 
+    <strong>
+      N
+    </strong>
+  </span>,
+  <span>
+    <strong>
+      ew
+    </strong>
+  </span>,
+]
+`;
+
+exports[`SplitMatch > uses MatchComponent when supplied as prop 1`] = `
+[
+  <span>
+    <span
+      className="match"
+    >
+      New
+    </span>
+    
+  </span>,
+  <span>
+     
+    <span
+      className="match"
+    >
+      New
+    </span>
+    
+  </span>,
+  <span>
+     
+    <span
+      className="match"
+    >
+      New
+    </span>
+  </span>,
+]
+`;
+
+exports[`SplitMatch > uses SplitComponent when supplied as prop 1`] = `
+[
+  <span
+    className="split0"
+  >
+    <strong>
+      New
+    </strong>
+    
+  </span>,
+  <span
+    className="split1"
+  >
+     
+    <strong>
+      New
+    </strong>
+    
+  </span>,
+  <span
+    className="split2"
+  >
+     
+    <strong>
+      New
+    </strong>
+  </span>,
+]
+`;
+
+exports[`SplitMatch > uses both SplitComponent and MatchComponent when supplied as props 1`] = `
+[
+  <span
+    className="split0"
+  >
+    <span
+      className="match"
+    >
+      New
+    </span>
+    
+  </span>,
+  <span
+    className="split1"
+  >
+     
+    <span
+      className="match"
+    >
+      New
+    </span>
+    
+  </span>,
+  <span
+    className="split2"
+  >
+     
+    <span
+      className="match"
+    >
+      New
+    </span>
+  </span>,
+]
+`;

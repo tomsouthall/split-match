@@ -1,7 +1,8 @@
 {
   "name": "split-match",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Split a text string into separate React elements. In addition, wrap any text that matches the supplied search text in a React element, even when the matched text is divided across the elements created by the split.",
+  "license": "MIT",
   "author": "Tom Southall",
   "keywords": [
     "React",

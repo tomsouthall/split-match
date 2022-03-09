@@ -1,5 +1,10 @@
 # Changelog
 
+### 0.2.2 (9 Mar 2022)
+
+- Add raw Github image URLs to README
+- Remove images from published files
+
 ### 0.2.1 (9 Mar 2022)
 
 - Include images in published files

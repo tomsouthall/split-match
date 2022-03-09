@@ -1,6 +1,6 @@
 {
   "name": "split-match",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "A React component for finding matches within a split string.",
   "license": "MIT",
   "author": "Tom Southall",
@@ -16,7 +16,6 @@
   ],
   "files": [
     "dist",
-    "media",
     "LICENSE.md",
     "README.md"
   ],

@@ -17,7 +17,7 @@ A React component for finding matches within a split string
 
 `SplitMatch` is particularly useful for building components like an autocomplete, where the text entered is highlighted in the accompanying listbox options:
 
-![Entering text into an autocomplete control](media/autocomplete1.gif)
+![Entering text into an autocomplete control](https://github.com/tomsouthall/split-match/raw/main/media/autocomplete1.gif)
 
 The markup for the example above is simple. Each listbox option looks something like this, with the `<strong>` element denoting the matched search text:
 
@@ -28,7 +28,7 @@ Converting this into a React component would be straightforward.
 
 However, what if we wanted to pretty things up a little and apply some formatting to our listbox options? We may want the state and country names to appear in a smaller font than the city name, like in this `SplitMatch` example:
 
-![Entering text into an autocomplete control with formatted results](media/autocomplete2.gif)
+![Entering text into an autocomplete control with formatted results](https://github.com/tomsouthall/split-match/raw/main/media/autocomplete2.gif)
 
 Here we may need to take a string such as `"Springfield, Michigan, United States"` and split it at the first comma so we can apply different styling to each element. For example:
 
@@ -53,7 +53,7 @@ Here's where the `SplitMatch` component comes in handy. It takes a string, a sep
 
 This allows lots of flexibility in formatting and at the same time allows matched text to be easily displayed, even when it is split between different block elements. Note that in this example, you can also choose whether to hide the delimiter/separator character, in this case the first comma in the top listbox option.
 
-![Entering text into an autocomplete control with formatted results](media/autocomplete3.gif)
+![Entering text into an autocomplete control with formatted results](https://github.com/tomsouthall/split-match/raw/main/media/autocomplete3.gif)
 
 ## Installation &amp; Usage
 

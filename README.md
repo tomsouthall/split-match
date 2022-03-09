@@ -200,7 +200,7 @@ The following components can be supplied to the `<SplitMatch>` component as prop
 - Make changes.
 - Add appropriate tests
 - `$ npm test` (or `$ npm run watch`)
-- Ensure all tests pass and any snapshot chnages are fully reviewed
+- Ensure all tests pass and any snapshot changes are fully reviewed
 - Update README with appropriate docs.
 - Commit and PR
 
